@@ -1,0 +1,331 @@
+/* BASIC STYLINGS */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header{
+
+    background-image: url(images/1633303428693.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+  h1{
+      font-size: 50px;
+      font-family: 'Bad Script', cursive;
+  }
+
+  p{
+      font-size: 24px;
+  }
+
+  footer{
+      background-color: #393333;
+}
+
+header h1{
+    width: 25%;
+    margin-left: 10%;
+}
+
+header img{
+    margin-bottom: 0;
+    position: absolute;
+    top:12%;
+    margin-left: 6%;
+}
+
+/* DEFAULT CODE FOR SECTION STYLING */
+
+section{
+    background-color: darkgray;
+    color:white;
+    font-family: sans-serif;
+    padding:5%;
+}
+
+img{
+    border-radius: 5px;
+}
+
+/* NAVIGATION BAR STYLING */
+
+header ul{
+    list-style:none;
+    background-color:#393333;
+    position: fixed;
+    top: 3.5%;
+    right:0;
+    width: 54.4%;
+    z-index: 2;  /* Prevents navigation bar from overlapping with <p> elements */
+}
+
+header li{
+    float: left;
+    font-family: 'Architects Daughter', cursive;
+}
+
+header li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 20px 34px;
+    text-decoration: none;
+  }
+  header li a:hover{
+    background-color:black;
+  }
+
+/* FOOTER NAVIGATION STYLING */
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+    margin-left: 50px;
+    padding: 0px 5%;
+    font-size: 16px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+footer li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* STYLING FOR SECTIONS WITH IMAGES ON THE RIGHT */
+
+.image-right{
+    display: block;
+}
+
+.image-right h2{
+    margin-bottom: 1.8%;
+    font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.image-right div{
+    position: relative; 
+    top: 300px;
+}
+
+.image-right p{
+    margin-right: 55%;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+.image-right figure{
+    margin-left:65%;    
+    overflow:hidden;
+}
+
+.image-right figcaption{
+    position:relative;
+    bottom: 35px;
+    left: 5px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+/* STYLING FOR SECTIONS WITH IMAGES ON THE LEFT */
+
+.image-left{
+    display: block;
+}
+
+.image-left h2{
+    margin-bottom: 2%;
+    font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.image-left div{
+    position: relative; 
+    top: 300px;
+    right: 125px;
+}
+
+.image-left p{
+    margin-left: 55%;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+.image-left figure{
+    margin-right:65%; 
+    overflow:hidden
+}
+
+.image-left figcaption{
+    position:relative;
+    bottom: 35px;
+    left: 5px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+/* INDIVIDUAL STYLINGS FOR SECTIONS */
+
+#menu{
+    padding:5%;
+}
+
+#intro p{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2.5%;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 27px;
+}
+
+#intro h2{
+    font-size: 37px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#intro{
+    text-align: center;
+    display: block;
+    background-image: url(images/1633303428693.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+#item-1{
+    background-image: 
+        url(images/item1.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#item-2{
+    background-image: 
+        url(images/item2.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#item-3{
+    background-image: 
+        url(images/item3.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#item-4{
+    background-image: 
+        url(images/item4.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#item-5{
+    background-image: 
+        url(images/item5-blade.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#item-6{
+    background-image: 
+        url(images/item6.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#item-7{
+    background-image: 
+        url(images/item7.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#item-8{
+    background-image: 
+        url(images/item8.jpg),
+        linear-gradient(#393333, #393333);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#outro p{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+}
+
+#outro{
+    text-align: center;
+    display: block;
+    background-image: url(images/1633303428693.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+#outro p{
+    padding-top: 2.5%;
+    font-family: 'Architects Daughter', cursive;
+    font-size:27px;
+}
+
+#outro h2{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 37px;
+}
+
+#outro hr{
+    width: 50%;
+    margin-left: 25%;
+    margin-top:2%;
+    border-top: 4px solid #ff7f51;
+}
