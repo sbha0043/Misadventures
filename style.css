@@ -32,7 +32,7 @@ header{
 }
 
 header h1{
-    width: 25%;
+    width: 30%;
     margin-left: 10%;
 }
 
@@ -40,7 +40,7 @@ header img{
     margin-bottom: 0;
     position: absolute;
     top:12%;
-    margin-left: 6%;
+    margin-left: 5%;
 }
 
 /* DEFAULT CODE FOR SECTION STYLING */
